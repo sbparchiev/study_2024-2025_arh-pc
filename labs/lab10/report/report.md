@@ -75,6 +75,7 @@ header-includes:
 # Выполнение лабораторной работы
 
 1) Я создал каталог lab10 и в нем файл lab10.asm
+![Снимок экрана от 2024-12-13 16-48-09](https://github.com/user-attachments/assets/c6df0515-4a18-483c-a206-4ae43267e0dc)
 
 
 

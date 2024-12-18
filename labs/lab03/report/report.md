@@ -70,7 +70,8 @@ header-includes:
 
 1. Я обновил локальный репозиторий скачав изменения из удаленного репозитория. 
 
-![Обновление репозитория.](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1666996671.jpeg){ #fig:001 width=70% }
+![Снимок экрана от 2024-12-18 18-35-11](https://github.com/user-attachments/assets/0d217caa-b6fc-4530-ae9c-4b7de1755218)
+
 
 1.2. Я проверил команду make, она создала два файла report.docx и report.pdf
 

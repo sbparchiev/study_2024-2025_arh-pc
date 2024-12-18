@@ -1,12 +1,11 @@
 ---
 ## Front matter
-title: "Шаблон отчёта по лабораторной работе"
-subtitle: "Простейший вариант"
-author: "Дмитрий Сергеевич Кулябов"
+title: "Лабораторная работа №3"
+subtitle: "Язык разметки Markdown"
+author: "Парчиев Султан Багаудинович"
 
 ## Generic otions
 lang: ru-RU
-toc-title: "Содержание"
 
 ## Bibliography
 bibliography: bib/cite.bib
@@ -15,9 +14,7 @@ csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
 ## Pdf output format
 toc: true # Table of contents
 toc-depth: 2
-lof: true # List of figures
-lot: true # List of tables
-fontsize: 12pt
+fontsize: 13pt
 linestretch: 1.5
 papersize: a4
 documentclass: scrreprt
@@ -33,18 +30,16 @@ polyglossia-otherlangs:
 babel-lang: russian
 babel-otherlangs: english
 ## Fonts
-mainfont: IBM Plex Serif
-romanfont: IBM Plex Serif
-sansfont: IBM Plex Sans
-monofont: IBM Plex Mono
-mathfont: STIX Two Math
-mainfontoptions: Ligatures=Common,Ligatures=TeX,Scale=0.94
-romanfontoptions: Ligatures=Common,Ligatures=TeX,Scale=0.94
-sansfontoptions: Ligatures=Common,Ligatures=TeX,Scale=MatchLowercase,Scale=0.94
-monofontoptions: Scale=MatchLowercase,Scale=0.94,FakeStretch=0.9
-mathfontoptions:
+mainfont: PT Serif
+romanfont: PT Serif
+sansfont: PT Sans
+monofont: PT Mono
+mainfontoptions: Ligatures=TeX
+romanfontoptions: Ligatures=TeX
+sansfontoptions: Ligatures=TeX,Scale=MatchLowercase
+monofontoptions: Scale=MatchLowercase,Scale=0.9
 ## Biblatex
-biblatex: true
+biblatex: false
 biblio-style: "gost-numeric"
 biblatexoptions:
   - parentracker=true
@@ -57,8 +52,6 @@ biblatexoptions:
 figureTitle: "Рис."
 tableTitle: "Таблица"
 listingTitle: "Листинг"
-lofTitle: "Список иллюстраций"
-lotTitle: "Список таблиц"
 lolTitle: "Листинги"
 ## Misc options
 indent: true
@@ -70,52 +63,60 @@ header-includes:
 
 # Цель работы
 
-Здесь приводится формулировка цели лабораторной работы. Формулировки
-цели для каждой лабораторной работы приведены в методических
-указаниях.
+Овладеть практическими навыками легковесного языка разметки Markdown.
 
-Цель данного шаблона --- максимально упростить подготовку отчётов по
-лабораторным работам.  Модифицируя данный шаблон, студенты смогут без
-труда подготовить отчёт по лабораторным работам, а также познакомиться
-с основными возможностями разметки Markdown.
-
-# Задание
-
-Здесь приводится описание задания в соответствии с рекомендациями
-методического пособия и выданным вариантом.
-
-# Теоретическое введение
-
-Здесь описываются теоретические аспекты, связанные с выполнением работы.
-
-Например, в табл. [-@tbl:std-dir] приведено краткое описание стандартных каталогов Unix.
-
-: Описание некоторых каталогов файловой системы GNU Linux {#tbl:std-dir}
-
-| Имя каталога | Описание каталога                                                                                                          |
-|--------------|----------------------------------------------------------------------------------------------------------------------------|
-| `/`          | Корневая директория, содержащая всю файловую                                                                               |
-| `/bin `      | Основные системные утилиты, необходимые как в однопользовательском режиме, так и при обычной работе всем пользователям     |
-| `/etc`       | Общесистемные конфигурационные файлы и файлы конфигурации установленных программ                                           |
-| `/home`      | Содержит домашние директории пользователей, которые, в свою очередь, содержат персональные настройки и данные пользователя |
-| `/media`     | Точки монтирования для сменных носителей                                                                                   |
-| `/root`      | Домашняя директория пользователя  `root`                                                                                   |
-| `/tmp`       | Временные файлы                                                                                                            |
-| `/usr`       | Вторичная иерархия для данных пользователя                                                                                 |
-
-Более подробно про Unix см. в [@tanenbaum_book_modern-os_ru; @robbins_book_bash_en; @zarrelli_book_mastering-bash_en; @newham_book_learning-bash_en].
 
 # Выполнение лабораторной работы
 
-Описываются проведённые действия, в качестве иллюстрации даётся ссылка на иллюстрацию (рис. [-@fig:001]).
+1. Я обновил локальный репозиторий скачав изменения из удаленного репозитория. 
 
-![Название рисунка](image/placeimg_800_600_tech.jpg){#fig:001 width=70%}
+![Обновление репозитория.](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1666996671.jpeg){ #fig:001 width=70% }
+
+1.2. Я проверил команду make, она создала два файла report.docx и report.pdf
+
+![Команда make.](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1666996676.jpeg){ #fig:002 width=70% }
+
+1.3. C помощью команды make clean я отчистил созданные файлы и проверил это.
+
+![Команда make clean.](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1666996684.jpeg){ #fig:003 width=70% }
+
+![Проверка отчистки файлов.](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1666996688.jpeg){ #fig:004 width=70% }
+
+1.4. С помощью текстового редактора gedit открыл файл report.md.
+
+![Команда gedit](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1666996692.jpeg){ #fig:005 width=70% }
+
+![Report.md с помощью gedit.](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1666996697.jpeg){ #fig:006 width=70% }
+
+1.5. Я заполнил отчет в файле report.md.
+
+![Пункты в файле report.md](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1666999413.jpeg){ #fig:007 width=70% }
+
+![Скриншоты выполнения лабораторной работы в каталоге image.](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1666999415.jpeg){ #fig:008 width=70% }
+
+1.6. Я перенес файлы на github.
+
+![Перенос файлов на github.](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1667000917.jpeg){ #fig:009 width=70% }
+
+# Выполнение самостоятельной работы.
+
+2.1. В соответствующем каталоге я сделал отчет по лабораторной работе №3. 
+
+![Скриншоты 3 лабораторной работы в каталоге image.](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1667035390.jpeg){ #fig:010 width=70% }
+
+![Фрагмент работы в файле report.md.](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1666999413.jpeg){ #fig:011 width=70% }
+
+2.2. Я создал отчета в формате *.docx и *.pdf.
+
+![Отчет в формате pdf и docx.](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1667035405.jpeg){ #fig:012 width=70% }
+
+2.3. Я загрузил файлы на github.
+
+![Загрузка на github.](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1667035963.jpeg){ #fig:013 width=70% }
 
 # Выводы
 
-Здесь кратко описываются итоги проделанной работы.
+Я овладел практическими навыками легковесного языка разметки Markdown.
 
-# Список литературы{.unnumbered}
 
-::: {#refs}
 :::

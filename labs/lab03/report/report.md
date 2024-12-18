@@ -75,46 +75,30 @@ header-includes:
 
 1.2. Я проверил команду make, она создала два файла report.docx и report.pdf
 
-![Команда make.](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1666996676.jpeg){ #fig:002 width=70% }
 
 1.3. C помощью команды make clean я отчистил созданные файлы и проверил это.
 
-![Команда make clean.](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1666996684.jpeg){ #fig:003 width=70% }
-
-![Проверка отчистки файлов.](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1666996688.jpeg){ #fig:004 width=70% }
 
 1.4. С помощью текстового редактора gedit открыл файл report.md.
 
-![Команда gedit](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1666996692.jpeg){ #fig:005 width=70% }
-
-![Report.md с помощью gedit.](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1666996697.jpeg){ #fig:006 width=70% }
 
 1.5. Я заполнил отчет в файле report.md.
 
-![Пункты в файле report.md](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1666999413.jpeg){ #fig:007 width=70% }
-
-![Скриншоты выполнения лабораторной работы в каталоге image.](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1666999415.jpeg){ #fig:008 width=70% }
 
 1.6. Я перенес файлы на github.
 
-![Перенос файлов на github.](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1667000917.jpeg){ #fig:009 width=70% }
 
 # Выполнение самостоятельной работы.
 
 2.1. В соответствующем каталоге я сделал отчет по лабораторной работе №3. 
 
-![Скриншоты 3 лабораторной работы в каталоге image.](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1667035390.jpeg){ #fig:010 width=70% }
-
-![Фрагмент работы в файле report.md.](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1666999413.jpeg){ #fig:011 width=70% }
 
 2.2. Я создал отчета в формате *.docx и *.pdf.
 
-![Отчет в формате pdf и docx.](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1667035405.jpeg){ #fig:012 width=70% }
 
 2.3. Я загрузил файлы на github.
 
-![Загрузка на github.](/home/aalushin/work/study/2022-2023/Архитектура компьютера/study_2022-2023_arh-pc/labs/lab04/report/image/photo1667035963.jpeg){ #fig:013 width=70% }
-
+!
 # Выводы
 
 Я овладел практическими навыками легковесного языка разметки Markdown.
